@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+header .search {
+  display: flex;
+}
+
+header .search input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+header .search button {
+  padding: 5px 10px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.block1{
+  background-color: #ffffff;
+  color: black;
+  width: 650px;
+  height: 250px;
+  justify-items: start;
+  justify-content: start;
+  padding: 20px 40px;
+}
+
+.hero {
+
+  background-color: #ffffff;
+  color: white;
+  padding: 50px 20px;
+  background-image: url('bg.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .cta {
+  background-color: #0078d4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100px;
+  width: 80px;
+}
+
+.products .product {
+  text-align: center;
+}
+
+.products .product h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.products .product a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.featured .feature {
+  text-align: center;
+}
+
+.featured .feature h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.featured .feature p {
+  margin-bottom: 10px;
+}
+
+.featured .feature a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  justify-content: start;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.card p {
+  color: gray;
+  font-size: 14px;
+}
+
+.shop-btn {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 10px 15px;
+  background: #0078d4;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 14px;
+}

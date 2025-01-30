@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+
+.col {
+  flex-direction: column;
+}
+
+
+.container {
+  text-align: left;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.container h1 {
+  color: #1877f2;
+  font-size: 48px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 20px;
+  color: #606770;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  width: 440px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-box input {
+  width: 92%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button {
+  background: #1877f2;
+}
+
+.login-box button:hover {
+  background: #155db2;
+}
+
+.forgot-password {
+  display: block;
+  margin: 15px 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.create-account {
+  background: #42b72a;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.create-account:hover {
+  background: #36a420;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+footer {
+  background-color: #f0f2f5;
+  padding: 20px;
+  padding-left: 132px;
+  padding-right: 132px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border-top: 1px solid #dddfe2;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #888888;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 12px;
+  color: #8a8d91;
+  margin: 0;
+}
+
+.language-links {
+  margin-bottom: 15px;
+}
+
+.language-links a {
+  font-weight: bold;
+}
+
+.main-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-links a {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.meta-links {
+  margin-top: 15px;
+}
+
+.meta-links a {
+  color: #8a8d91;
+}
+
+.meta-links a:hover {
+  color: #385898;
+}
+
+.space {
+  height: 200px;
+}
