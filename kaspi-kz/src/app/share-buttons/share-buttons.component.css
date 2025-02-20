@@ -1,0 +1,33 @@
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.telegram-button {
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+.telegram-button:hover {
+  background-color: #0077b5;
+}

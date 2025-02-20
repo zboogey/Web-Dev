@@ -1,0 +1,31 @@
+.listing {
+  background-color: #f9f9f9;
+  border: 2px #2d2d2d;
+  border-radius: 4px;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+.listing-heading {
+  color: black;
+  padding: 20px;
+  font-weight: 500;
+}
+.listing-photo {
+  height: 320px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.listing-location {
+  padding: 20px;
+}
+
+section.listing a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+section.listing a::after {
+  content: "\203A";
+  margin-left: 5px;
+}
