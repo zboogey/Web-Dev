@@ -1,0 +1,105 @@
+.card {
+  width: 90%;
+  height: 650px;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(223, 223, 223, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cardimg {
+  width: 95%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f8f9fa;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: left;
+  overflow: hidden;
+}
+
+#price {
+  color: #0b0b0b;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+#rating {
+  color: #0b0b0b;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.card button {
+  flex: 1;
+  background-color: #0b0b0b;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+
+#remove-btn {
+  background-color: #f00e0e;
+}
+.pr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-group1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.share{
+  padding-left: 110px;
+  display: flex;
+}
+#whatsapp{
+  padding-left: 16px;
+}
+#telegram{
+  margin-left: 16px;
+}
+#like-btn{
+  background-color: #2558ff;
+}

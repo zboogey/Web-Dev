@@ -1,0 +1,31 @@
+<div class="card">
+  <img [src]="product.image" alt="{{ product.name }}" class="cardimg" />
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+  <div class="pr">
+    <p id="price">{{ product.price }} KZT</p>
+    <p id="rating">Rating: {{ product.rating }}/5</p>
+  </div>
+
+  <p class="likes">Likes: {{ product.likes }} Likes</p>
+
+  <div class="button-group1">
+    <button (click)="openLink()">View</button>
+    <div class="share">
+      <img src="https://www.shareicon.net/data/512x512/2015/11/09/669589_logo_512x512.png" alt="WhatsApp Share"
+     (click)="shareOnWhatsApp()" 
+     height="32px" 
+     width="32px" id="whatsapp">
+     <img src="https://banner2.cleanpng.com/20190514/zzk/kisspng-portable-network-graphics-clip-art-logo-telegram-t-logo-telegram-1713892825372.webp" alt="WhatsApp Share"
+     (click)="shareOnTelegram()" 
+     height="32px" 
+     width="32px" id="telegram">
+    </div>
+
+  </div>
+
+  <div class="button-group">
+    <button id="like-btn" (click)="likeProduct()">Like</button>
+    <button id="remove-btn" (click)="removeProduct()">Remove</button>
+  </div>
+</div>
