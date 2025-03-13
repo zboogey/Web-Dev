@@ -1,0 +1,9 @@
+<div class="screen">
+  <div *ngIf="album" class="box">
+    <h1>Album Details</h1>
+    <input [(ngModel)]="album.title" />
+    <button (click)="save()">Save</button>
+    <button (click)="return()">Return</button>
+    <a [routerLink]="['/albums', album.id, 'photos']">Photos</a>
+  </div>
+</div>

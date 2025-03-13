@@ -1,0 +1,15 @@
+h1 {
+  color: #a8a8a8;
+  text-align: center;
+  font-size: 84px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 90vh;
+}
