@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "70215103-52a3-4010-afe4-e0f002c6a8d7",
+		"name": "lab9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43608301",
+		"_collection_link": "https://almat-6675983.postman.co/workspace/Almat's-Workspace~d08c6e35-669d-4d1c-8fcc-b6421a78a3c5/collection/43608301-70215103-52a3-4010-afe4-e0f002c6a8d7?action=share&source=collection_link&creator=43608301"
+	},
+	"item": [
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "List all companies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/companies",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"companies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get company by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/companies/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"companies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get company vacancies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/companies/1/vacancies",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"companies",
+								"1",
+								"vacancies"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vacancy",
+			"item": [
+				{
+					"name": "LIst all vacancies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/vacancies",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"vacancies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get vacancy by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/vacancies/1/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"vacancies",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get top ten vacancies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/vacancies/top_ten/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"vacancies",
+								"top_ten",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

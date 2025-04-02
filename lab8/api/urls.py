@@ -7,4 +7,5 @@ urlpatterns = [
     path('api/categories/', views.CategoryList.as_view(), name='category-list'),
     path('api/categories/<int:pk>/', views.CategoryDetail.as_view(), name='category-detail'),
     path('api/categories/<int:id>/products/', views.CategoryProductsList.as_view(), name='category-products'),
+    path('api/products/price/<int:pk>/', views.ProductPriceList.as_view(), name='product-price-list'),
 ]

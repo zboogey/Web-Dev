@@ -29,3 +29,10 @@ class CategoryProductsList(generics.ListAPIView):
     def get_queryset(self):
         category_id = self.kwargs['id']
         return Product.objects.filter(category_id=category_id)
+
+class ProductPriceList(generics.ListAPIView):
+    serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        price = self.kwargs['pk']
+        return Product.objects.filter(price=price)
