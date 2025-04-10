@@ -1,0 +1,10 @@
+<div class="vacancy-container">
+  <div class="vacancy-list">
+    <div class="vacancy-card" *ngFor="let vacancy of vacancies">
+      <h3>{{ vacancy.name }}</h3>
+      <p>{{ vacancy.description }}</p>
+      <p class="salary">Salary: ${{ vacancy.salary }}</p>
+    </div>
+    <p class="err" *ngIf="vacancies.length === 0">No vacancies found for this company.</p>
+  </div>
+</div>

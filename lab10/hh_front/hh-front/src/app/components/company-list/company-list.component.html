@@ -1,0 +1,22 @@
+<div class="company-container">
+  <h1>Companies</h1>
+  <div class="company-list" *ngIf="!error; else errorMessage">
+    <div
+      class="company-card"
+      *ngFor="let company of companies"
+      [class.selected]="selectedCompanyId === company.id"
+      (click)="selectCompany(company.id)"
+    >
+      <h2>{{ company.name }}</h2>
+      <p>{{ company.city }}</p>
+      <p>{{ company.address }}</p>
+    </div>
+  </div>
+  <ng-template #errorMessage>
+    <p class="error">{{ error }}</p>
+  </ng-template>
+  <app-vacancy-list
+    *ngIf="selectedCompanyId"
+    [companyId]="selectedCompanyId"
+  ></app-vacancy-list>
+</div>
